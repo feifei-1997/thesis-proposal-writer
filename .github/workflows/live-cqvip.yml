@@ -1,0 +1,29 @@
+name: CQVIP Live Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  live-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Require repository secret
+        env:
+          CQVIP_API_KEY: ${{ secrets.CQVIP_API_KEY }}
+        run: |
+          if [ -z "$CQVIP_API_KEY" ]; then
+            echo "CQVIP_API_KEY repository secret is not configured"
+            exit 1
+          fi
+      - name: Run one-record live search
+        env:
+          CQVIP_API_KEY: ${{ secrets.CQVIP_API_KEY }}
+          CQVIP_LIVE_TEST: "1"
+        run: python -m unittest tests.test_live_api -v

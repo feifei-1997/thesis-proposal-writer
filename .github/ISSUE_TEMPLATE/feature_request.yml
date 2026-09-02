@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose a focused improvement to the Skill
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user workflow is currently difficult or impossible?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed outcome
+      description: Describe observable behavior rather than implementation details.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Conversation workflow
+        - Proposal structure
+        - Literature retrieval
+        - Packaging and installation
+        - Documentation
+    validations:
+      required: true

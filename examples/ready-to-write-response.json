@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "status": "ready_to_write",
+  "proposal_brief": {
+    "topic": "基于深度学习的电池包寿命研究",
+    "degree_level": "专业硕士",
+    "major_background": "车辆工程",
+    "research_subdirection": "融合工况与温度特征的电池包RUL预测，比较LSTM与Transformer",
+    "deliverable_format": "Markdown"
+  },
+  "literature_evidence": {
+    "status": "unavailable",
+    "provider": "cqvip",
+    "papers": [],
+    "citations": null,
+    "warning": "维普 API Key 尚未配置，当前不能实时检索和生成真实参考文献。"
+  },
+  "response": "信息已完整。请基于 proposal_brief 和 literature_evidence 撰写完整开题报告；文献不足时必须明确标注，不得补造参考文献。"
+}

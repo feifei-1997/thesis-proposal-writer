@@ -1,0 +1,28 @@
+{
+  "success": true,
+  "status": "needs_input",
+  "missing_fields": [
+    "degree_level",
+    "major_background",
+    "research_subdirection",
+    "deliverable_format"
+  ],
+  "questions": [
+    {
+      "field": "degree_level",
+      "question": "请确认开题报告的学位层级：本科、专业硕士、学术硕士还是博士？"
+    },
+    {
+      "field": "major_background",
+      "question": "你的学位专业或培养方向是什么？"
+    },
+    {
+      "field": "research_subdirection",
+      "question": "你准备聚焦哪个具体子方向？"
+    },
+    {
+      "field": "deliverable_format",
+      "question": "最终希望交付为什么格式？"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "action": "prepare_proposal",
+  "proposal_brief": {
+    "topic": "基于深度学习的电池包寿命研究",
+    "degree_level": "专业硕士",
+    "major_background": "车辆工程",
+    "research_subdirection": "融合工况与温度特征的电池包RUL预测，比较LSTM与Transformer",
+    "deliverable_format": "Markdown"
+  },
+  "max_papers": 12,
+  "include_citations": true
+}

@@ -1,0 +1,8 @@
+{
+  "slug": "thesis-proposal-writer",
+  "name": "论文开题写作助手",
+  "version": "1.0.0",
+  "source": "github",
+  "apiKeyEnv": "CQVIP_API_KEY",
+  "apiBaseUrl": "https://superapi.cqvip.com"
+}
