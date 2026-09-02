@@ -24,4 +24,4 @@ Offline tests must not contact CQVIP. The live test is opt-in and requires both 
 
 ## Issues
 
-Include the operating system, Python version, Jenius/sandbox version, sanitized runner input, and structured error code. Remove credentials and personal data before posting.
+Include the operating system, Python version, Agent host/sandbox version, sanitized runner input, and structured error code. Remove credentials and personal data before posting.

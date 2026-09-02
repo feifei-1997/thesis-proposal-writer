@@ -49,7 +49,7 @@ Only CQVIP response fields may support concrete paper claims. Search results are
 
 ## Release Boundary
 
-The GitHub repository contains contributor documentation, examples, tests, and automation. The installable Jenius ZIP contains only:
+The GitHub repository contains contributor documentation, examples, tests, and automation. The installable Agent Skill ZIP contains only:
 
 ```text
 SKILL.md

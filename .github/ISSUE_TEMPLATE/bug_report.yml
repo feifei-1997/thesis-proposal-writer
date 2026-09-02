@@ -10,7 +10,7 @@ body:
     id: environment
     attributes:
       label: Environment
-      description: OS, Python version, Jenius version, and sandbox runtime
+      description: OS, Python version, Agent host version, and sandbox runtime
     validations:
       required: true
   - type: textarea

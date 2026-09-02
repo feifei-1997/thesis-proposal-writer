@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a deterministic, cross-platform Jenius Skill release archive."""
+"""Build a deterministic, cross-platform Agent Skill release archive."""
 
 from __future__ import annotations
 

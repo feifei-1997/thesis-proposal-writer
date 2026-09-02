@@ -7,13 +7,13 @@ These settings are configured in GitHub after the first push and cannot be expre
 Suggested repository name:
 
 ```text
-jenius-thesis-proposal-writer
+thesis-proposal-writer
 ```
 
 Suggested description:
 
 ```text
-Jenius Agent Skill for conversational thesis proposal writing with CQVIP literature retrieval.
+Portable Agent Skill for conversational thesis proposal writing with CQVIP literature retrieval.
 ```
 
 ## Topics
@@ -21,8 +21,8 @@ Jenius Agent Skill for conversational thesis proposal writing with CQVIP literat
 ```text
 ai-agent
 agent-skill
-jenius
-workbuddy
+skill-md
+agent-tools
 thesis-writing
 academic-writing
 literature-search

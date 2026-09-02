@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-A Jenius-compatible Agent Skill for thesis proposal writing. It collects four essential research constraints through normal Assistant conversation, retrieves literature metadata from CQVIP, and prepares an evidence bundle that the host Assistant uses to draft the proposal.
+A portable Agent Skill for thesis proposal writing. It collects four essential research constraints through normal Assistant conversation, retrieves literature metadata from CQVIP, and prepares an evidence bundle that the host Assistant uses to draft the proposal.
 
 > This is an independent community project. It is not affiliated with or endorsed by CQVIP.
 
@@ -37,7 +37,7 @@ Host Assistant
 ## Requirements
 
 - Python 3.10 or newer.
-- A Jenius sandbox, or another host that can load `SKILL.md` and execute `runner.py`.
+- An Agent host that can load `SKILL.md` and execute `runner.py` in a sandbox.
 - Optional CQVIP API access for real-time literature retrieval.
 - Outbound HTTPS access to `superapi.cqvip.com:443` when CQVIP is enabled.
 
@@ -79,11 +79,11 @@ python runner.py --input examples/complete-request.json --pretty
 
 Never put a real key in source code, JSON requests, logs, examples, ZIP files, issues, or pull requests. Copy `.env.example` only as a local reference; this Skill does not automatically load `.env` files.
 
-## Install in Jenius
+## Install in an Agent Host
 
 1. Download the ZIP attached to the latest GitHub Release, or build it locally.
-2. Host the ZIP at a URL reachable by both Jenius and its sandbox.
-3. Register the Skill URL through the Jenius custom Skill interface.
+2. Make the ZIP available to the Agent host and its sandbox.
+3. Register or install the Skill through the host's custom Skill interface.
 4. Select `thesis-proposal-writer` in the Agent configuration.
 5. Configure `CQVIP_API_KEY` in the sandbox service, not in the chat request.
 6. Allow outbound HTTPS access to `superapi.cqvip.com:443`.

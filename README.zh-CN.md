@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-这是一个适配 Jenius 的论文开题写作 Skill：先通过普通 Assistant 对话补齐四项关键信息，再使用维普 API 检索真实文献，最后把结构化开题信息和文献证据交给宿主 Assistant 撰写正文。
+这是一个通用的论文开题写作 Agent Skill：先通过普通 Assistant 对话补齐四项关键信息，再使用维普 API 检索真实文献，最后把结构化开题信息和文献证据交给宿主 Assistant 撰写正文。
 
 > 本项目是独立社区项目，与维普不存在官方隶属或背书关系。
 
@@ -64,11 +64,11 @@ Key 只能保存在运行环境中，不得写入源代码、请求 JSON、日�
 superapi.cqvip.com:443
 ```
 
-## 安装到 Jenius
+## 安装到 Agent 平台
 
 1. 下载 GitHub Release 中的 ZIP，或自行打包；
-2. 将 ZIP 放到 Jenius 与沙箱都能访问的 URL；
-3. 通过 Jenius 自定义 Skill 接口注册该 URL；
+2. 让 Agent 宿主及其沙箱能够获取该 ZIP；
+3. 通过宿主平台的自定义 Skill 接口安装或注册；
 4. 在 Agent 配置中选择 `thesis-proposal-writer`；
 5. 在实际沙箱服务中配置 `CQVIP_API_KEY`；
 6. 开放维普域名的 HTTPS 出站访问。

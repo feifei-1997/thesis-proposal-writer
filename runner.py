@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Jenius sandbox JSON entrypoint for thesis proposal preparation."""
+"""Agent sandbox JSON entrypoint for thesis proposal preparation."""
 
 from __future__ import annotations
 
